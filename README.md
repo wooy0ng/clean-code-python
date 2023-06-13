@@ -83,12 +83,12 @@ current_date: str = datetime.date.today().strftime("%y-%m-%d")
 
 <br><br>
 
-### 동일 대상(entity)의 변수에 대해서는 동일 어휘를 사용합시다.
+### 동일 대상의 변수에 대해서는 동일 어휘를 사용합시다.
 
 <br>
 
 **나쁜 예:**
-아래 예제는 동일한 동일한 entity에 대해 3개의 다른 이름을 사용합니다.
+아래 예제는 동일 대상(entity)에 대해 3개의 다른 이름을 사용합니다.
 
 ```python
 def get_user_info(): pass
