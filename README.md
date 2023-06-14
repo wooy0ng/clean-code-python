@@ -1311,7 +1311,7 @@ def render(view: View, request) -> Response:
 
 하지만 `TemplateView`는 상속 시 `.get()` 메소드의 signature(메소드의 입/출력)을 변경했습니다.
 
-`TemplateVeiw`의 `render()`를 사용할 경우 오류가 발생할 것입니다.
+`TemplateView`의 `render()`를 사용할 경우 오류가 발생할 것입니다.
 
 <br>
 
